@@ -138,7 +138,7 @@ class App extends Component {
                     <div className="row margin-bottom">
                         <div className="col-lg-4">
                             <div className="heading heading--primary"><span className="heading__pre-title color--green">What we Do</span>
-                                <h2 className="heading__title no-margin-bottom"><span>Helpo</span> <span>Causes</span></h2>
+                                <h2 className="heading__title no-margin-bottom"><span>Help</span> <span>Causes</span></h2>
                             </div>
                         </div>
                         <div className="col-lg-8">
@@ -157,7 +157,7 @@ class App extends Component {
                                 return (
                                     <div key={index} className="col-lg-6">
                                         <div className="causes-item causes-item--style-2">
-                                            <div className="causes-item__body">
+                                            <div className="causes-item__body"> 
                                                 {
                                                     (item.c_starter === web3.eth.defaultAccount) ? "" : (
                                                         <div className="causes-item__action">
